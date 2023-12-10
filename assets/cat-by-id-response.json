@@ -1,0 +1,27 @@
+{
+  "status": 1,
+  "message": "success",
+  "data": {
+    "cat": {
+      "id": "4qG-5FC0J",
+      "url": "https://cdn2.thecatapi.com/images/4qG-5FC0J.jpg",
+      "width": 1689,
+      "height": 1017,
+      "breedId": "esho",
+      "breedName": "Exotic Shorthair",
+      "breedDescription": "The Exotic Shorthair is a gentle friendly cat that has the same personality as the Persian. They love having fun, don’t mind the company of other cats and dogs, also love to curl up for a sleep in a safe place. Exotics love their own people, but around strangers they are cautious at first. Given time, they usually warm up to visitors.",
+      "affectionLevel": "★ ★ ★ ★ ★",
+      "adaptability": "★ ★ ★ ★ ★",
+      "childFriendly": "★ ★ ★",
+      "dogFriendly": "★ ★ ★",
+      "energyLevel": "★ ★ ★",
+      "grooming": "★ ★",
+      "healthIssues": "★ ★ ★",
+      "intelligence": "★ ★ ★",
+      "sheddingLevel": "★ ★",
+      "socialNeeds": "★ ★ ★ ★",
+      "strangerFriendly": "★ ★",
+      "vocalisation": "★"
+    }
+  }
+}

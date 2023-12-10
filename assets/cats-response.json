@@ -1,0 +1,76 @@
+{
+  "status": 1,
+  "message": "success",
+  "data": {
+    "cats": [
+      {
+        "id": "4qG-5FC0J",
+        "url": "https://cdn2.thecatapi.com/images/4qG-5FC0J.jpg",
+        "width": 1689,
+        "height": 1017
+      },
+      {
+        "id": "yFqH0s2H_",
+        "url": "https://cdn2.thecatapi.com/images/yFqH0s2H_.jpg",
+        "width": 960,
+        "height": 960
+      },
+      {
+        "id": "106hayhS4",
+        "url": "https://cdn2.thecatapi.com/images/106hayhS4.jpg",
+        "width": 1600,
+        "height": 1303
+      },
+      {
+        "id": "HDxfaNlLj",
+        "url": "https://cdn2.thecatapi.com/images/HDxfaNlLj.jpg",
+        "width": 1200,
+        "height": 830
+      },
+      {
+        "id": "hz0fwFell",
+        "url": "https://cdn2.thecatapi.com/images/hz0fwFell.jpg",
+        "width": 1080,
+        "height": 843
+      },
+      {
+        "id": "bpZGfNLW1",
+        "url": "https://cdn2.thecatapi.com/images/bpZGfNLW1.png",
+        "width": 1100,
+        "height": 739
+      },
+      {
+        "id": "yLnM69IIz",
+        "url": "https://cdn2.thecatapi.com/images/yLnM69IIz.jpg",
+        "width": 4368,
+        "height": 2912
+      },
+      {
+        "id": "N5RX2nuGB",
+        "url": "https://cdn2.thecatapi.com/images/N5RX2nuGB.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "id": "41Fe8q9vU",
+        "url": "https://cdn2.thecatapi.com/images/41Fe8q9vU.jpg",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "id": "hFgotLj0m",
+        "url": "https://cdn2.thecatapi.com/images/hFgotLj0m.jpg",
+        "width": 1040,
+        "height": 585
+      }
+    ],
+    "pagination": {
+      "meta": {
+        "currentPage": 1,
+        "perPage": 10,
+        "totalPages": 1,
+        "totalResults": 10
+      }
+    }
+  }
+}

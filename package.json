@@ -1,0 +1,40 @@
+{
+  "name": "node-performance",
+  "version": "1.0.0",
+  "description": "implementation of different ways to improve performance of nodejs by handling event-loop blocking tasks",
+  "main": "dist/app.js",
+  "scripts": {
+    "install-1": "npm install --prefix 1-blocking-request",
+    "install-2": "npm install --prefix 2-cluster",
+    "install-3": "npm install --prefix 3-pm2",
+    "install-4": "npm install --prefix 4-child-process",
+    "install-5": "npm install --prefix 5-worker-thread",
+    "install-all": "npm run install-1 && npm run install-2 && npm run install-3 && npm run install-4 && npm run install-5",
+    "dev-1": "npm run dev --prefix 1-blocking-request",
+    "dev-2": "npm run dev --prefix 2-cluster",
+    "dev-3": "npm run dev --prefix 3-pm2",
+    "dev-4": "npm run dev --prefix 4-child-process",
+    "dev-5": "npm run dev --prefix 5-worker-thread",
+    "prod-1": "npm run prod --prefix 1-blocking-request",
+    "prod-2": "npm run prod --prefix 2-cluster",
+    "prod-3": "npm run prod --prefix 3-pm2",
+    "prod-4": "npm run prod --prefix 4-child-process",
+    "prod-5": "npm run prod --prefix 5-worker-thread",
+    "pm2:start": "npm run pm2:start --prefix 3-pm2",
+    "pm2:start:all": "npm run pm2:start:all --prefix 3-pm2",
+    "pm2:stop:all": "npm run pm2:stop:all --prefix 3-pm2",
+    "pm2:logs": "npm run pm2:logs --prefix 3-pm2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "express",
+    "nodejs"
+  ],
+  "author": "deltacap019",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}

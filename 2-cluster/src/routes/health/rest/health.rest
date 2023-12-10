@@ -1,0 +1,2 @@
+
+GET {{host}}/{{prefix}}/routes HTTP/1.1

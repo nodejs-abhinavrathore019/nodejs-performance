@@ -1,0 +1,65 @@
+env:
+  browser: true
+  commonjs: true
+  es2021: true
+extends:
+  - airbnb-base
+  - airbnb-typescript/base
+  - plugin:security/recommended
+  - plugin:import/recommended
+  - plugin:@typescript-eslint/recommended
+parser: "@typescript-eslint/parser"
+parserOptions:
+  ecmaVersion: latest
+  project:
+    - "./tsconfig.json"
+    - "./tsconfig.eslint.json"
+plugins:
+  - "@typescript-eslint"
+ignorePatterns:
+  - dist
+  - jest/coverage
+  - jest/output
+  - babel.config.js
+# common rules for all files
+rules:
+  no-underscore-dangle:
+    - error
+    - allow:
+        - _id
+  linebreak-style: off
+  import/prefer-default-export: off
+  import/no-extraneous-dependencies: off
+  import/no-import-module-exports: off
+  arrow-body-style: off
+overrides:
+  # js
+  - files:
+      - "*.js"
+      - "*.mjs"
+    rules:
+      "@typescript-eslint/no-var-requires": off
+  # ts
+  - files:
+      - "*.ts"
+    rules:
+      "@typescript-eslint/no-explicit-any": off
+      "@typescript-eslint/no-unused-vars":
+        - "error"
+        - "args": "none"
+  # jest
+  - files:
+      - "./src/**/__tests__/*.test.ts"
+      - "./src/**/__mocks__/**/*.ts"
+      - "./jest/setup/**/*.ts"
+    env:
+      jest: true
+    globals:
+      request: readonly
+      closeServer: readonly
+    rules:
+      global-require: off
+      max-len: off
+      import/namespace: off
+      import/first: off
+      "@typescript-eslint/ban-ts-comment": off
